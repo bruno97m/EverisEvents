@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B152FCED1FF4C86F87D613EC /* Pods_EverisEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1722E7BDBDFF313461A6DD6C /* Pods_EverisEvents.framework */; };
+		B7C471A9B3E6AE986E98B67B /* Pods_EverisEventsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D603FA07D9F63286E2B17774 /* Pods_EverisEventsTests.framework */; };
+		FA1043E720B3DD4E0055E6F9 /* EventDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1043E520B3DD4E0055E6F9 /* EventDash.swift */; };
+		FA1043E820B3DD4E0055E6F9 /* EventDash.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1043E620B3DD4E0055E6F9 /* EventDash.xib */; };
+		FA34084720AC86B700AABA1E /* DashboardBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34084620AC86B700AABA1E /* DashboardBusiness.swift */; };
+		FA34084C20AC8BCC00AABA1E /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34084B20AC8BCC00AABA1E /* DashboardViewController.swift */; };
+		FA59FC26209F71EF0077EA97 /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59FC24209F71EF0077EA97 /* MyImage.swift */; };
+		FA59FC27209F71EF0077EA97 /* MyImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA59FC25209F71EF0077EA97 /* MyImage.xib */; };
+		FA9527B720B8757F00971630 /* CellEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9527B620B8757F00971630 /* CellEvent.swift */; };
+		FAC51FC820A1F43B004839CA /* CellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC51FC720A1F43B004839CA /* CellBase.swift */; };
+		FAC51FCC20A1FD78004839CA /* CellLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC51FCB20A1FD78004839CA /* CellLabel.swift */; };
+		FAC51FCE20A20489004839CA /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC51FCD20A20489004839CA /* EventViewController.swift */; };
+		FAC51FD120A204CB004839CA /* EventBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC51FD020A204CB004839CA /* EventBusiness.swift */; };
+		FAC51FD320A20DE8004839CA /* CellImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC51FD220A20DE8004839CA /* CellImage.swift */; };
+		FACA1C2520B325E5003CD6EC /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA1C2320B325E5003CD6EC /* News.swift */; };
+		FACA1C2620B325E5003CD6EC /* News.xib in Resources */ = {isa = PBXBuildFile; fileRef = FACA1C2420B325E5003CD6EC /* News.xib */; };
+		FACA1C2820B32DB9003CD6EC /* CellNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA1C2720B32DB9003CD6EC /* CellNews.swift */; };
 		FAF769EC209A0CA3003EF372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF769EB209A0CA3003EF372 /* AppDelegate.swift */; };
-		FAF769EE209A0CA3003EF372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF769ED209A0CA3003EF372 /* ViewController.swift */; };
 		FAF769F1209A0CA3003EF372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF769EF209A0CA3003EF372 /* Main.storyboard */; };
 		FAF769F3209A0CA4003EF372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF769F2209A0CA4003EF372 /* Assets.xcassets */; };
 		FAF769F6209A0CA4003EF372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF769F4209A0CA4003EF372 /* LaunchScreen.storyboard */; };
 		FAF76A01209A0CA4003EF372 /* EverisEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF76A00209A0CA4003EF372 /* EverisEventsTests.swift */; };
+		FAF76A0D209A1E54003EF372 /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF76A0B209A1E54003EF372 /* MyLabel.swift */; };
+		FAF76A0E209A1E54003EF372 /* MyLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF76A0C209A1E54003EF372 /* MyLabel.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +44,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1722E7BDBDFF313461A6DD6C /* Pods_EverisEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EverisEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D453794555C0A0E589A59E /* Pods-EverisEvents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EverisEvents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EverisEvents/Pods-EverisEvents.debug.xcconfig"; sourceTree = "<group>"; };
+		3C9EAD1C37B9E09D00068DB9 /* Pods-EverisEvents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EverisEvents.release.xcconfig"; path = "Pods/Target Support Files/Pods-EverisEvents/Pods-EverisEvents.release.xcconfig"; sourceTree = "<group>"; };
+		A753A8D5726A6B2CBA5A561B /* Pods-EverisEventsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EverisEventsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EverisEventsTests/Pods-EverisEventsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D603FA07D9F63286E2B17774 /* Pods_EverisEventsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EverisEventsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1043E520B3DD4E0055E6F9 /* EventDash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDash.swift; sourceTree = "<group>"; };
+		FA1043E620B3DD4E0055E6F9 /* EventDash.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventDash.xib; sourceTree = "<group>"; };
+		FA34084620AC86B700AABA1E /* DashboardBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardBusiness.swift; sourceTree = "<group>"; };
+		FA34084B20AC8BCC00AABA1E /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		FA59FC24209F71EF0077EA97 /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyImage.swift; path = Assets.xcassets/MyImage.swift; sourceTree = "<group>"; };
+		FA59FC25209F71EF0077EA97 /* MyImage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MyImage.xib; path = Assets.xcassets/MyImage.xib; sourceTree = "<group>"; };
+		FA9527B620B8757F00971630 /* CellEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellEvent.swift; sourceTree = "<group>"; };
+		FAC51FC720A1F43B004839CA /* CellBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBase.swift; sourceTree = "<group>"; };
+		FAC51FCB20A1FD78004839CA /* CellLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellLabel.swift; sourceTree = "<group>"; };
+		FAC51FCD20A20489004839CA /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		FAC51FD020A204CB004839CA /* EventBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBusiness.swift; sourceTree = "<group>"; };
+		FAC51FD220A20DE8004839CA /* CellImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellImage.swift; sourceTree = "<group>"; };
+		FACA1C2320B325E5003CD6EC /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		FACA1C2420B325E5003CD6EC /* News.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = News.xib; sourceTree = "<group>"; };
+		FACA1C2720B32DB9003CD6EC /* CellNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellNews.swift; sourceTree = "<group>"; };
 		FAF769E8209A0CA3003EF372 /* EverisEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverisEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF769EB209A0CA3003EF372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAF769ED209A0CA3003EF372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAF769F0209A0CA3003EF372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAF769F2209A0CA4003EF372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF769F5209A0CA4003EF372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +73,9 @@
 		FAF769FC209A0CA4003EF372 /* EverisEventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverisEventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF76A00209A0CA4003EF372 /* EverisEventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverisEventsTests.swift; sourceTree = "<group>"; };
 		FAF76A02209A0CA4003EF372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF76A0B209A1E54003EF372 /* MyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
+		FAF76A0C209A1E54003EF372 /* MyLabel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyLabel.xib; sourceTree = "<group>"; };
+		FECCBDD6AA4C49090150D11E /* Pods-EverisEventsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EverisEventsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EverisEventsTests/Pods-EverisEventsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B152FCED1FF4C86F87D613EC /* Pods_EverisEvents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +91,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C471A9B3E6AE986E98B67B /* Pods_EverisEventsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EB5BC7AD084D9089DE0A07A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21D453794555C0A0E589A59E /* Pods-EverisEvents.debug.xcconfig */,
+				3C9EAD1C37B9E09D00068DB9 /* Pods-EverisEvents.release.xcconfig */,
+				FECCBDD6AA4C49090150D11E /* Pods-EverisEventsTests.debug.xcconfig */,
+				A753A8D5726A6B2CBA5A561B /* Pods-EverisEventsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E179FA64AD7CD7D1FBC40B63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1722E7BDBDFF313461A6DD6C /* Pods_EverisEvents.framework */,
+				D603FA07D9F63286E2B17774 /* Pods_EverisEventsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA34084820AC86C500AABA1E /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				FA1043E520B3DD4E0055E6F9 /* EventDash.swift */,
+				FA1043E620B3DD4E0055E6F9 /* EventDash.xib */,
+				FACA1C2320B325E5003CD6EC /* News.swift */,
+				FACA1C2420B325E5003CD6EC /* News.xib */,
+				FA34084620AC86B700AABA1E /* DashboardBusiness.swift */,
+				FA34084B20AC8BCC00AABA1E /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		FAC51FC620A1F422004839CA /* CellTypes */ = {
+			isa = PBXGroup;
+			children = (
+				FAC51FC720A1F43B004839CA /* CellBase.swift */,
+				FAC51FCB20A1FD78004839CA /* CellLabel.swift */,
+				FAC51FD220A20DE8004839CA /* CellImage.swift */,
+				FACA1C2720B32DB9003CD6EC /* CellNews.swift */,
+				FA9527B620B8757F00971630 /* CellEvent.swift */,
+			);
+			path = CellTypes;
+			sourceTree = "<group>";
+		};
+		FAC51FCF20A204AC004839CA /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				FAC51FCD20A20489004839CA /* EventViewController.swift */,
+				FAC51FD020A204CB004839CA /* EventBusiness.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
 		FAF769DF209A0CA3003EF372 = {
 			isa = PBXGroup;
 			children = (
 				FAF769EA209A0CA3003EF372 /* EverisEvents */,
 				FAF769FF209A0CA4003EF372 /* EverisEventsTests */,
 				FAF769E9209A0CA3003EF372 /* Products */,
+				0EB5BC7AD084D9089DE0A07A /* Pods */,
+				E179FA64AD7CD7D1FBC40B63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +175,18 @@
 		FAF769EA209A0CA3003EF372 /* EverisEvents */ = {
 			isa = PBXGroup;
 			children = (
-				FAF769EB209A0CA3003EF372 /* AppDelegate.swift */,
-				FAF769ED209A0CA3003EF372 /* ViewController.swift */,
+				FA34084820AC86C500AABA1E /* Dashboard */,
+				FAC51FC620A1F422004839CA /* CellTypes */,
+				FAC51FCF20A204AC004839CA /* Events */,
 				FAF769EF209A0CA3003EF372 /* Main.storyboard */,
 				FAF769F2209A0CA4003EF372 /* Assets.xcassets */,
 				FAF769F4209A0CA4003EF372 /* LaunchScreen.storyboard */,
+				FAF769EB209A0CA3003EF372 /* AppDelegate.swift */,
 				FAF769F7209A0CA4003EF372 /* Info.plist */,
+				FA59FC24209F71EF0077EA97 /* MyImage.swift */,
+				FA59FC25209F71EF0077EA97 /* MyImage.xib */,
+				FAF76A0B209A1E54003EF372 /* MyLabel.swift */,
+				FAF76A0C209A1E54003EF372 /* MyLabel.xib */,
 			);
 			path = EverisEvents;
 			sourceTree = "<group>";
@@ -103,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF76A05209A0CA4003EF372 /* Build configuration list for PBXNativeTarget "EverisEvents" */;
 			buildPhases = (
+				B3B4949EA88D05EE5833DF44 /* [CP] Check Pods Manifest.lock */,
 				FAF769E4209A0CA3003EF372 /* Sources */,
 				FAF769E5209A0CA3003EF372 /* Frameworks */,
 				FAF769E6209A0CA3003EF372 /* Resources */,
+				58CAF6DC1C2BD993343F11D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF76A08209A0CA4003EF372 /* Build configuration list for PBXNativeTarget "EverisEventsTests" */;
 			buildPhases = (
+				0FAEE2CB8782CCC885F26283 /* [CP] Check Pods Manifest.lock */,
 				FAF769F8209A0CA4003EF372 /* Sources */,
 				FAF769F9209A0CA4003EF372 /* Frameworks */,
 				FAF769FA209A0CA4003EF372 /* Resources */,
@@ -178,7 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF769F6209A0CA4003EF372 /* LaunchScreen.storyboard in Resources */,
+				FA59FC27209F71EF0077EA97 /* MyImage.xib in Resources */,
+				FAF76A0E209A1E54003EF372 /* MyLabel.xib in Resources */,
 				FAF769F3209A0CA4003EF372 /* Assets.xcassets in Resources */,
+				FACA1C2620B325E5003CD6EC /* News.xib in Resources */,
+				FA1043E820B3DD4E0055E6F9 /* EventDash.xib in Resources */,
 				FAF769F1209A0CA3003EF372 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,13 +303,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FAEE2CB8782CCC885F26283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EverisEventsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58CAF6DC1C2BD993343F11D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EverisEvents/Pods-EverisEvents-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EverisEvents/Pods-EverisEvents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B4949EA88D05EE5833DF44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EverisEvents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAF769E4209A0CA3003EF372 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF769EE209A0CA3003EF372 /* ViewController.swift in Sources */,
+				FAC51FCC20A1FD78004839CA /* CellLabel.swift in Sources */,
 				FAF769EC209A0CA3003EF372 /* AppDelegate.swift in Sources */,
+				FAF76A0D209A1E54003EF372 /* MyLabel.swift in Sources */,
+				FA1043E720B3DD4E0055E6F9 /* EventDash.swift in Sources */,
+				FAC51FCE20A20489004839CA /* EventViewController.swift in Sources */,
+				FA34084720AC86B700AABA1E /* DashboardBusiness.swift in Sources */,
+				FA59FC26209F71EF0077EA97 /* MyImage.swift in Sources */,
+				FAC51FD320A20DE8004839CA /* CellImage.swift in Sources */,
+				FA9527B720B8757F00971630 /* CellEvent.swift in Sources */,
+				FA34084C20AC8BCC00AABA1E /* DashboardViewController.swift in Sources */,
+				FAC51FD120A204CB004839CA /* EventBusiness.swift in Sources */,
+				FACA1C2520B325E5003CD6EC /* News.swift in Sources */,
+				FAC51FC820A1F43B004839CA /* CellBase.swift in Sources */,
+				FACA1C2820B32DB9003CD6EC /* CellNews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,8 +536,8 @@
 		};
 		FAF76A06209A0CA4003EF372 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D453794555C0A0E589A59E /* Pods-EverisEvents.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EverisEvents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -373,8 +553,8 @@
 		};
 		FAF76A07209A0CA4003EF372 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9EAD1C37B9E09D00068DB9 /* Pods-EverisEvents.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EverisEvents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -390,6 +570,7 @@
 		};
 		FAF76A09209A0CA4003EF372 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECCBDD6AA4C49090150D11E /* Pods-EverisEventsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,6 +591,7 @@
 		};
 		FAF76A0A209A0CA4003EF372 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A753A8D5726A6B2CBA5A561B /* Pods-EverisEventsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

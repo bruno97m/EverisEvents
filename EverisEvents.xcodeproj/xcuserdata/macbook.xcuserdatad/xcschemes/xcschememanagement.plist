@@ -7,7 +7,20 @@
 		<key>EverisEvents.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FAF769E7209A0CA3003EF372</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAF769FB209A0CA4003EF372</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
